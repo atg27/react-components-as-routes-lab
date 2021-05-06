@@ -1,0 +1,425 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 24,
+    "passes": 18,
+    "pending": 0,
+    "failures": 6,
+    "start": "2021-05-06T18:27:20.138Z",
+    "end": "2021-05-06T18:27:20.194Z",
+    "duration": 56
+  },
+  "tests": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <NavBar /> component",
+      "fullTitle": "App contains a <NavBar /> component",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/\">",
+      "fullTitle": "App contains a <Route path=\"/\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/actors\">",
+      "fullTitle": "App contains a <Route path=\"/actors\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/directors\">",
+      "fullTitle": "App contains a <Route path=\"/directors\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/movies\">",
+      "fullTitle": "App contains a <Route path=\"/movies\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Directors' to include 'Directors Page'",
+        "showDiff": false,
+        "actual": "Directors",
+        "stack": "AssertionError: expected 'Directors' to include 'Directors Page'\n    at Context.<anonymous> (test/DirectorsTest.js:27:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Home ' to equal 'Home'",
+        "showDiff": true,
+        "actual": " Home ",
+        "expected": "Home",
+        "stack": "AssertionError: expected ' Home ' to equal 'Home'\n    at Context.<anonymous> (test/NavBarTest.js:27:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Movies ' to equal 'Movies'",
+        "showDiff": true,
+        "actual": " Movies ",
+        "expected": "Movies",
+        "stack": "AssertionError: expected ' Movies ' to equal 'Movies'\n    at Context.<anonymous> (test/NavBarTest.js:33:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Actors ' to equal 'Actors'",
+        "showDiff": true,
+        "actual": " Actors ",
+        "expected": "Actors",
+        "stack": "AssertionError: expected ' Actors ' to equal 'Actors'\n    at Context.<anonymous> (test/NavBarTest.js:39:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Directors ' to equal 'Directors'",
+        "showDiff": true,
+        "actual": " Directors ",
+        "expected": "Directors",
+        "stack": "AssertionError: expected ' Directors ' to equal 'Directors'\n    at Context.<anonymous> (test/NavBarTest.js:45:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Directors' to include 'Directors Page'",
+        "showDiff": false,
+        "actual": "Directors",
+        "stack": "AssertionError: expected 'Directors' to include 'Directors Page'\n    at Context.<anonymous> (test/DirectorsTest.js:27:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Home ' to equal 'Home'",
+        "showDiff": true,
+        "actual": " Home ",
+        "expected": "Home",
+        "stack": "AssertionError: expected ' Home ' to equal 'Home'\n    at Context.<anonymous> (test/NavBarTest.js:27:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Movies ' to equal 'Movies'",
+        "showDiff": true,
+        "actual": " Movies ",
+        "expected": "Movies",
+        "stack": "AssertionError: expected ' Movies ' to equal 'Movies'\n    at Context.<anonymous> (test/NavBarTest.js:33:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Actors ' to equal 'Actors'",
+        "showDiff": true,
+        "actual": " Actors ",
+        "expected": "Actors",
+        "stack": "AssertionError: expected ' Actors ' to equal 'Actors'\n    at Context.<anonymous> (test/NavBarTest.js:39:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Directors ' to equal 'Directors'",
+        "showDiff": true,
+        "actual": " Directors ",
+        "expected": "Directors",
+        "stack": "AssertionError: expected ' Directors ' to equal 'Directors'\n    at Context.<anonymous> (test/NavBarTest.js:45:44)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <NavBar /> component",
+      "fullTitle": "App contains a <NavBar /> component",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/\">",
+      "fullTitle": "App contains a <Route path=\"/\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/actors\">",
+      "fullTitle": "App contains a <Route path=\"/actors\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/directors\">",
+      "fullTitle": "App contains a <Route path=\"/directors\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/movies\">",
+      "fullTitle": "App contains a <Route path=\"/movies\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
